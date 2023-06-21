@@ -10,4 +10,9 @@ urlpatterns = [
     path('success/',views.payment_success_view,name='success'),
     path('failed/',views.payment_failed_view,name='failed'),
     path('create_product/',views.create_product,name='createproduct'),
+    path('edit_product/<int:id>/', views.product_edit, name='editproduct'),
+    path('delete/<int:id>/', views.product_delete, name='delete'),
+    path('dashboard/', views.dashboard, name='dashboard'),
+    path('register/', views.register, name='register'),
+
 ]

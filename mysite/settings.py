@@ -84,8 +84,8 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
-STRIPE_SECRET_KEY = 'stripe_secret_key'
-STRIPE_PUBLISHABLE_KEY = 'stripe_public_key'
+STRIPE_SECRET_KEY = 'your secret key'
+STRIPE_PUBLISHABLE_KEY = 'your private key'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
